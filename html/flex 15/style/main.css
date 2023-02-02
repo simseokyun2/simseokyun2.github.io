@@ -1,0 +1,168 @@
+body {
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    
+
+
+}
+h1,h2,h3,h4,span,p{
+    margin:0;
+    padding:0;
+}
+
+.header{
+    background-color: brown;
+    color:white;
+    padding:30px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    display:flex;
+    font-size:25px;
+}
+
+li{
+    list-style: none;
+    width:100%;
+    margin-right:15px;
+    
+}
+li:last-child{
+    margin-right:0
+}
+
+
+
+
+div {
+    box-sizing: border-box;
+}
+
+h4 {
+    margin: 0
+}
+
+p {
+    margin: 0;
+    margin-top: 30px;
+    ;
+}
+.flex-container{
+    display:flex;
+    justify-content: space-between;
+    /* flex 이용하여 세로배치 하려면 */
+    /* flex-direction: column; */
+    
+    /* width 가 크면 밑으로 보내고 싶을때 */
+    /* flex-wrap:Wrap; */
+
+    /* flex 이용시 상하정렬 */
+    align-items: center;
+
+    /* flex-grow 속성은 flex 요소의 박스의 크기를 결정 */
+    /* flex-grow:1 은 1배 flex-grow:2는 grow:1요소의 두배 */
+
+    /* 보통 nav 디자인을 flex-grow 속성을 적용하여 만듬 중간 빈 박스에 flex 그로우 적용 */
+}
+
+.flex-item {
+    width: 30%;
+    height: 100px;
+    background-color: grey;
+    margin: 5px;
+}
+
+
+.main-background {
+    width: 100%;
+    height: 500px;
+
+    background-image: url(../images/shoes.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px;
+    text-align: center;
+    position: relative;
+
+
+}
+
+.main-title {
+    color: White;
+    font-size: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.main-background p {
+    font-size: 10px;
+    color: white;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px 10px 20px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: wheat;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 60px;
+    width: 100px;
+
+
+
+}
+
+.sub-background {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    background-color: grey;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -50px;
+
+
+
+}
+
+/* bix-sizing:border-box 박스에 패딩을 주게되면 부여한 width 값보다 width가 늘어나게 된다 그러므로 보더박스 속성을 사용해야함. Padding은 max-width나 width값을 무시하기 때문 */
+
+
+
+
+/* position:absolute 요소 가운데 정렬하는법 */
+/* position:absolute
+    left:0;
+    right:0;
+    margin:auto;
+    적절한 width 를 주면됨
+
+ /* position:absolute는 부모태그가 기준 */
+
+
+
+/*position 부여하면
+1.좌표이동 
+2.공중에 뜸 */
+
+
+
+
+/* position:relative 그자리에서 이동
+position:static 좌표이동x
+position:fixed  현재화면이 기준 */
+
+/* z-index 란 요소를 배치하는 속성. z-index가 높을수록 앞으로 배치됨 */

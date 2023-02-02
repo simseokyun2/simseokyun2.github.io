@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+
+<body>
+    <div class="form-background">
+        <div class="form-white">
+            <form>
+                <div class="w-100">
+                    <h3>Contact Us</h3>
+                    <p>Your Email</p>
+                    <input type="email" class="form-input" placeholder="email@naver.com">
+                </div>
+
+                <div class="w-50">
+                    <p>first name</p>
+                    <input type="text">
+                </div>
+                <div class="w-50">
+                    <p>last name</p>
+                    <input type="text">
+                </div>
+                <div style="clear:both"></div>
+                <!-- clear:both 를 안 주게되면 float 속성 다음 요소에 레이아웃이 이상해짐 -->
+                <div class="w-100">
+                    <p>Message</p>
+                    <textarea class="form-input"></textarea>
+                </div>
+
+                <div class="w-100">
+                    <input type="checkbox">
+                    <span>Sub</span>
+                    <!-- 인풋 옆에 텍스트를 작성할 땐 span 태그 활용 -->
+                    <!-- label 이란 태그도 있는데 인풋 다음에 작성하고 input 의 id와 label 의 for 을 맞춰야함 -->
+                    <button>SEND</button>
+                    
+                </div>
+
+            </form>
+
+            <!-- css 고수 특징 
+            만들어둔 class 재활용함 -->
+
+        </div>
+    </div>
+
+</body>
+
+</html>

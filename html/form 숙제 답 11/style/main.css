@@ -1,0 +1,68 @@
+div,input,textarea {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+h1,h2,h3,h4,p{
+    margin:0;
+}
+
+html {
+    line-height: 1.15;
+    /*기본 행간 높이*/
+}
+
+.form-background{
+    background-color: black;
+    padding:30px;
+}
+
+.form-white{
+    background-color: white;
+    padding:30px;
+    width:80%;
+    margin:auto;
+    max-width:600px
+}
+
+.form-input{
+    padding:10px;
+    font-size:20px;
+    border:1px solid black;
+    border-radius: 5px;
+    width:100%
+}
+
+input{
+    padding:10px;
+    font-size:20px;
+    border:1px solid black;
+    border-radius: 5px;
+}
+
+.w-50{
+    width:50%;
+    float:left;
+    padding:10px;
+    
+}
+.w-100{
+    width:100%;
+    padding:10px;
+}
+
+button{
+    
+    padding:10px;
+    border:none;
+    display:block; margin-left:auto;
+    
+    /* 버튼 오른쪽 정렬하는법
+
+    1.float:right; 
+    2.display:block; margin-left:auto; */
+    
+}

@@ -1,0 +1,91 @@
+body {
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+
+
+
+}
+
+h1,
+h2,
+h3,
+h4,
+span,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+div {
+    box-sizing: border-box;
+}
+
+h4,
+h3,
+h2,
+h1 {
+    margin: 0
+}
+
+p {
+    margin: 0;
+
+
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    background-color: beige;
+    max-width: 600px;;
+    margin:auto;
+}
+
+.item {
+    width: 25%;
+    text-align: center;
+}
+
+.item p {
+    margin-top: 30px;
+}
+
+/* pc용 레이아웃부터 만들면 쉬움 */
+
+
+@media screen and (max-width:1200px){
+   
+ 
+
+}
+@media screen and (max-width:768px) {
+    .item {
+        width: 50%;
+        
+    }
+    .container{
+        flex-wrap: wrap;
+    }
+
+    .item:nth-child(3),.item:nth-child(4){
+        margin-top:50px;
+    }
+
+}
+
+@media screen and (max-width:600px){
+    .item{
+        width:100%;
+    }
+}

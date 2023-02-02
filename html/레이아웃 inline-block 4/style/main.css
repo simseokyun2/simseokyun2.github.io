@@ -1,0 +1,37 @@
+.container{
+    
+
+}
+
+.header{
+    width:100%;
+   
+    height:100px;
+    background-color: aquamarine;
+}
+.left-menu{
+    width:30%;
+    height:400px;
+    background: cornflowerblue;
+    display:inline-block;
+ 
+}
+.right{
+    width:70%;
+    height:400px;
+    background: coral;
+    display:inline-block;
+    vertical-align: top;
+    
+
+    /* vertical-align 요소는 display:inline 이나 inline-block 인 요소에만 적용가능 */
+    
+    
+}
+.footer{
+    width:100%;
+    height:100px;
+    background-color: grey;
+}
+
+

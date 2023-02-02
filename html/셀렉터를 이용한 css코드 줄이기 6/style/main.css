@@ -1,0 +1,25 @@
+
+.navbar{
+    text-align: center;
+}
+.navbar li{
+    /* navbar 에 리스트들은 block 속성을 가진다 그러므로 inline-block 으로 변경 */
+    display:inline-block;
+    width:60px;
+    text-align: center;
+    background:#eee;
+    padding:10px;
+    border-radius: 5px;
+}
+
+.navbar a{
+    font-size:20px;
+    text-decoration: none;
+    /* text-decoration:none; 은 링크의 밑줄제거기능 */
+}
+
+.navbar a:visited{
+    color:black;
+}
+
+/* :visited 는 방문한 후 스타일을 지정해주는 것  */
